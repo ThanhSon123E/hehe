@@ -1,0 +1,50 @@
+*{margin: 0;padding: 0;box-sizing: 0 border-box;}
+a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+header{
+    display: flex;
+    padding: 20px 20px;
+    background-color: black;
+    align-items: center;
+}
+ 
+.Logo{
+    width:70%;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+ .Menu{
+    display: flex;
+    list-style: none;
+ }
+ header ul.Menu>li{
+    padding: 15px 20px;
+    border-right:  1px solid white;
+ }
+ header ul.Menu>li:last-child{
+    border: none;
+ }
+
+  H1{
+    text-align: center;
+  }
+ 
+  .A{
+    margin: auto;
+    width: 50%;
+    padding: 10% ;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    display: flex;
+  }
+  #B1{
+    flex-basis: 70%;
+    list-style: decimal;
+    margin: auto;
+    font-size: 25px;
+  }
+  
+
